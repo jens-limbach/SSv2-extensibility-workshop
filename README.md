@@ -83,7 +83,8 @@ These attributes need to be adjusted by you:
 <img src="images/ManifestEdit.png">
 
 2. **Deploy Microservice:**
-- Open the command line, use `cd` to navigate to the folder and deploy your microservice with `cf push`. The magic happens in this case in the `app.js` file where we have defined two cloud functions (endpoints). One is called `/onCreateSubCase` and the other one is called `/customPieChart`. We will connect those two in the next step to our SAP Sales and Service Cloud Version 2.
+- Open the command line, use `cd` to navigate to the folder and deploy your microservice with `cf push`. Copy the hostname of your application for the next step. Just that you know, the magic happens in the `app.js` file where we have defined two cloud functions (endpoints). One is called `/onCreateSubCase` and the other one is called `/customPieChart`. We will connect those two in the next step to our SAP Sales and Service Cloud Version 2.
+<img src="images/Console3.png">
 
 3. **Configure in Sales & Service Cloud:**
 - Follow live instructions or refer to additional tutorials for custom business logic and key metrics setup.
