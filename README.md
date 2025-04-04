@@ -39,15 +39,21 @@ Before you start: My advise is to right-click and open all links below in a new 
 
 6. **Command Line Setup:**
 - Open the command line (cmd for Windows or terminal for Mac) and navigate to the folder using `cd`.
+- i.e.: 'cd C:\btp extensions\btp-website'
 
 7. **Deploy to BTP:**
-- Login using `cf login`, provide the necessary details, and deploy your site using `cf push`.
+- Login using `cf login`, provide the necessary details (see below), and deploy your site using `cf push`.
+- The api endpoint you find in your btp sub-account in the overview under "Cloud Foundry", e-mail and password are the credentials you use for your btp trial (for SAP users, it is the SAP-All).
 
-8. **Create AI-Generated Content:**
-- Use an AI platform to create a website and replace the HTML content of your site.
+8. **Test your first web site on BTP**
+- After 'cf push' is finished, you will get a link and if you copy this into the browser you see your very first web-site deployed to BTP! This you could now already embedd as a mashup in SSv2.
 
-9. **Deploy Updated Website:**
-- Execute `cf push` again to update your website on BTP.
+9. **Create AI-Generated Content:**
+- Use any LLM AI platform to create a website and replace the HTML content of your site.
+- i.e.: You can just prompt something like: "Create a website that shows a sample SWOT analysis for a large company from an account managers perspective. Also add a list of goals to be achieved with this account in the future. Add matching Unicode icons to the different goals."
+
+19. **Deploy Updated Website:**
+- Execute `cf push` again to update your website on BTP. Then test again with the provided link.
 
 ## Part 2: Deploying a Microservice with Cloud Functions
 
