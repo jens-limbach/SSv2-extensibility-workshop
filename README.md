@@ -34,7 +34,7 @@ Before you start: My advise is to right-click and open all links below in a new 
 - Unpack the ZIP file in your folder.
 
 4. **Edit Manifest File:**
-- Open the folder “btp-website” and edit the “manifest.yaml” by replacing "JL" with your own initials in this line `"- name: my-web-page-JL"`.
+- Open the folder “btp-website” and edit the “manifest.yaml” by adding your own initials (i.e. "-JL") in this line `"- name: my-web-page-JL"`.
 
 5. **Install Cloud Foundry CLI:**
 - Download and install the Cloud Foundry Command Line Tool suitable for your OS.
