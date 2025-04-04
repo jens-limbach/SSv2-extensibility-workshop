@@ -1,6 +1,6 @@
 # SSv2 - Extensibility Workshop
 
-Welcome to your first journey in creating BTP frontend applications as a professional code developer! This guide will provide step-by-step instructions accompanied by live sessions, allowing you to get started with V2 development. After completing these steps, you’ll be able to develop:
+Welcome to your first journey in creating side-by-side extensions for SAP Sales and Service Cloud Version 2 as a pro code developer! This guide will provide step-by-step instructions accompanied by live sessions, allowing you to get started with V2 development. After completing these steps, you’ll be able to develop:
 
 - Basic applications embedded via mashup and generated with AI
 - Microservices with small cloud functions with custom business logic
