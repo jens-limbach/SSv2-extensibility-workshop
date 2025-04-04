@@ -59,21 +59,25 @@ After the `cf push` you will see the link under which your new website will be a
 - After 'cf push' is finished, you will get a link and if you copy this into the browser you see your very first web-site deployed to BTP! This you could now already embedd as a mashup in SSv2.
 
 9. **Create AI-Generated Content:**
-- Use any LLM AI platform to create a website and replace the HTML content of your site.
+- Now let's improve this very simple HTML page a little bit using any AI of your choice.
+- Use any LLM AI platform to create a website and replace the HTML content of your site. If you work at SAP, I recommend you using the [AI Launchpad](https://sapit-core-playground-vole.ai-launchpad.prod.eu-central-1.aws.apps.ml.hana.ondemand.com/aic/index.html#/generativeaihub?workspace=sap-genai-xl&resourceGroup=default&/g/promptchat).
 - i.e.: You can just prompt something like:
-  >Create a website that shows a sample SWOT analysis for a large company from an account managers perspective. Also add a list of goals to be achieved with this account in the future. Add matching Unicode icons to the different goals."
+  >Create a website that shows a sample SWOT analysis for a large company from an account managers perspective. Make every quadrant of the SWOT Analysis with a different color. Also add a list of goals to be achieved with this account in the future. Add matching Unicode icons to the different goals. Everything should be included in a single HMTL page."
 
 10. **Deploy Updated Website:**
 - Execute `cf push` again to update your website on BTP. Then test again with the provided link.
 
+In my last test with the LLM Mistral the generated website looked like below. Not very pretty, still static but for the effort we spend quite nice.
+<img src="images/AIWebsite.png">
+
 ## Part 2: Deploying a Microservice with Cloud Functions
 
-Now that you know how to deploy applications to the BTP Cloud Foundry environment, follow these steps to create microservices with two cloud functions.
-- The first cloud function will have "custom business logic" which can be called via an autoflow on save
+Now that you know how to deploy applications to the BTP Cloud Foundry environment, follow these steps to create one microservice with two cloud functions.
+- The first cloud function will have a "custom business logic" which can be called via an autoflow on save
 - The second cloud function will contain the data stream necessary to feed the "custom key metrics" on the account overview
 
 1. **Edit Your Manifest File:**
-- Open the "btp-microservice" folder and edit the "manifest.yaml" file again substituting "JL" with your own initials in this line: 'name: myservice-jl'
+- Open the "btp-microservice" folder and edit the "manifest.yaml" file again adding your initials like here: 'name: myservice-JL'
 
 2. **Deploy Microservice:**
 - Use `cd` to navigate to the folder and deploy with `cf push`.
