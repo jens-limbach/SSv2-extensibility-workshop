@@ -52,6 +52,9 @@ Before you start: My advise is to right-click and open all links below in a new 
 Until the `cf push` it should look similar to this:
 <img src="images/Console1.png">
 
+After the `cf push` you will see the link under which your new website will be available, this you should copy for the next step.
+<img src="images/Console2.png">
+
 8. **Test your first web site on BTP**
 - After 'cf push' is finished, you will get a link and if you copy this into the browser you see your very first web-site deployed to BTP! This you could now already embedd as a mashup in SSv2.
 
