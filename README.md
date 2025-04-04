@@ -55,12 +55,14 @@ Before you start: My advise is to right-click and open all links below in a new 
 - i.e.: You can just prompt something like:
   >Create a website that shows a sample SWOT analysis for a large company from an account managers perspective. Also add a list of goals to be achieved with this account in the future. Add matching Unicode icons to the different goals."
 
-19. **Deploy Updated Website:**
+10. **Deploy Updated Website:**
 - Execute `cf push` again to update your website on BTP. Then test again with the provided link.
 
 ## Part 2: Deploying a Microservice with Cloud Functions
 
-Now that you know how to deploy applications to the BTP Cloud Foundry environment, follow these steps to create microservices:
+Now that you know how to deploy applications to the BTP Cloud Foundry environment, follow these steps to create microservices with two cloud functions.
+- The first cloud function will have "custom business logic" which can be called via an autoflow on save
+- The second cloud function will contain the data stream necessary to feed the "custom key metrics" on the account overview
 
 1. **Edit Your Manifest File:**
 - Open the "btp-microservice" folder and edit the "manifest.yaml" file with your initials.
