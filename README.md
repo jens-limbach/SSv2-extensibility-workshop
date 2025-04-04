@@ -28,7 +28,7 @@ Before you start: My advise is to right-click and open all links below in a new 
 
 2. **Prepare Your Local Environment:**
 - Create a new folder named “btp extensions” on your computer and save the provided [ZIP file](https://github.com/jens-limbach/SSv2-extensibility-workshop/blob/2c6bdc7edcb9fdeaa133f66c78283e7915a1d972/SSv2-extension-workshop.zip) here.
-  - The zip file contains: a ppt with the training flow and 3 folders with sample code which we will use as part of this training
+  - The zip file contains: a pdf with the training overview and 3 folders with sample code which we will use as part of this training
   
 3. **Unpack the ZIP File:**
 - Unpack the ZIP file in your folder.
