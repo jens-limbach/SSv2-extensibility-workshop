@@ -49,8 +49,8 @@ Before you start: My advise is to right-click and open all links below in a new 
 - Login using `cf login`, provide the necessary details (see below), and deploy your site using `cf push`.
 - The api endpoint you find in your btp sub-account in the overview under "Cloud Foundry Enviroment", e-mail and password are the credentials you use for your btp trial (for SAP users, it is the SAP-All).
 
-Until the 'cf push' it should look similar to this:
-[<img src="images/Console1.png">]
+Until the `cf push` it should look similar to this:
+<img src="images/Console1.png">
 
 8. **Test your first web site on BTP**
 - After 'cf push' is finished, you will get a link and if you copy this into the browser you see your very first web-site deployed to BTP! This you could now already embedd as a mashup in SSv2.
