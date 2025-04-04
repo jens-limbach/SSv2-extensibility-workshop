@@ -2,7 +2,7 @@
 
 Welcome to your first journey in creating BTP frontend applications as a professional code developer! This guide will provide step-by-step instructions accompanied by live sessions, allowing you to become proficient in V2 development. After completing these steps, you’ll be able to develop:
 
-- Full applications embedded via mashup and generate with AI
+- Full applications embedded via mashup and generated with AI
 - Microservices with small cloud functions with custom business logic
 - Microservices with small cloud functions to extend the customer 360 with third-party data
 
@@ -19,11 +19,10 @@ Welcome to your first journey in creating BTP frontend applications as a profess
 ### Steps:
 
 1. **Create a BTP Trial Account:**
-
-Create your own BTP Trial, wait a bit and login.
+- Create your own [BTP Trial](https://account.hanatrial.ondemand.com/), wait a bit and login.
 
 2. **Prepare Your Local Environment:**
-- Create a new folder named “btp extensions” on your computer and save the provided ZIP file there.
+- Create a new folder named “btp extensions” on your computer and save the provided [ZIP file](https://github.com/jens-limbach/SSv2-extensibility-workshop/blob/c7aba46ded43a51dd40b309baa632e2c3498c40e/btp-extension-training.zip) here.
 
 3. **Unpack the ZIP File:**
 - Unpack the ZIP file in your folder.
