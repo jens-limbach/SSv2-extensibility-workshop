@@ -1,4 +1,4 @@
-# BTP Frontend Application Development
+# SSv2 - Extensibility Workshop
 
 Welcome to your first journey in creating BTP frontend applications as a professional code developer! This guide will provide step-by-step instructions accompanied by live sessions, allowing you to become proficient in V2 development. After completing these steps, you’ll be able to develop:
 
@@ -28,6 +28,7 @@ Before you start: My advise is to right-click and open all links below in a new 
 
 2. **Prepare Your Local Environment:**
 - Create a new folder named “btp extensions” on your computer and save the provided [ZIP file](https://github.com/jens-limbach/SSv2-extensibility-workshop/blob/c7aba46ded43a51dd40b309baa632e2c3498c40e/btp-extension-training.zip) here.
+  - The zip file contains: a ppt with the training flow and 3 folders with sample code which we will use as part of this training
   
 3. **Unpack the ZIP File:**
 - Unpack the ZIP file in your folder.
