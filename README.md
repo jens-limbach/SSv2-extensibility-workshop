@@ -2,9 +2,11 @@
 
 Welcome to your first journey in creating BTP frontend applications as a professional code developer! This guide will provide step-by-step instructions accompanied by live sessions, allowing you to become proficient in V2 development. After completing these steps, you’ll be able to develop:
 
-- Full applications embedded via mashup and generated with AI
+- Basic applications embedded via mashup and generated with AI
 - Microservices with small cloud functions with custom business logic
 - Microservices with small cloud functions to extend the customer 360 with third-party data
+
+This is really a beginners training to provide you with the very fundamentals. There is no rocket science here. :)
 
 ## Table of Contents
 
