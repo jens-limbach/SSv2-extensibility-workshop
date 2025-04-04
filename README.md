@@ -41,7 +41,7 @@ Before you start: My advise is to right-click and open all links below in a new 
 
 6. **Command Line Setup:**
 - Open the command line (cmd for Windows or terminal for Mac) and navigate to the folder using `cd`.
-  >i.e.: 'cd C:\btp extensions\btp-website'
+- i.e.: `cd C:\btp extensions\btp-website`
 
 7. **Deploy to BTP:**
 - Login using `cf login`, provide the necessary details (see below), and deploy your site using `cf push`.
