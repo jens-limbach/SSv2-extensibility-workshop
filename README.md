@@ -41,7 +41,7 @@ Before you start: My advise is to right-click and open all links below in a new 
 
 6. **Command Line Setup:**
 - Open the command line (cmd for Windows or terminal for Mac) and navigate to the folder using `cd`.
-- i.e.: 'cd C:\btp extensions\btp-website'
+  >i.e.: 'cd C:\btp extensions\btp-website'
 
 7. **Deploy to BTP:**
 - Login using `cf login`, provide the necessary details (see below), and deploy your site using `cf push`.
@@ -52,7 +52,8 @@ Before you start: My advise is to right-click and open all links below in a new 
 
 9. **Create AI-Generated Content:**
 - Use any LLM AI platform to create a website and replace the HTML content of your site.
-- i.e.: You can just prompt something like: "Create a website that shows a sample SWOT analysis for a large company from an account managers perspective. Also add a list of goals to be achieved with this account in the future. Add matching Unicode icons to the different goals."
+- i.e.: You can just prompt something like:
+  >Create a website that shows a sample SWOT analysis for a large company from an account managers perspective. Also add a list of goals to be achieved with this account in the future. Add matching Unicode icons to the different goals."
 
 19. **Deploy Updated Website:**
 - Execute `cf push` again to update your website on BTP. Then test again with the provided link.
