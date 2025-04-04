@@ -84,22 +84,26 @@ These attributes need to be adjusted by you:
 
 2. **Deploy Microservice:**
 - Open the command line, use `cd` to navigate to the folder and deploy your microservice with `cf push`. Copy the hostname of your application for the next step. Just that you know, the magic happens in the `app.js` file where we have defined two cloud functions (endpoints). One is called `/onCreateSubCase` and the other one is called `/customPieChart`. We will connect those two in the next step to our SAP Sales and Service Cloud Version 2.
+
+After the `cf push` you should see a screen similar to this.
 <img src="images/Console3.png">
 
 3. **Configure in Sales & Service Cloud:**
 - Follow live instructions or refer to additional tutorials for custom business logic and key metrics setup.
-  - For custom logic you can follow from step 3 onwards in this [tutorial](https://github.com/joek/async-sample). The only difference is that the `path` is not `/webhook` but will be `/onCreateSubCase`.
-  - For the “custom key metrics” part: Go to Admin Settings, create a communication system, provide the hostname of your microservice in the outbound configuration, create a custom key metric and provide the `/customPieChart` endpoint of your microservice as a path.
+  - For custom logic you can follow from step 3 onwards in this [tutorial](https://github.com/joek/async-sample). The only difference is that the `path` which is given in the autoflow will not be `/webhook` but will be `/onCreateSubCase`.
+  - For the “custom key metrics” part: Go to Admin Settings, create a custom key metric, select the above created communication system and provide the `/customPieChart` endpoint of your microservice as a path.
+ 
+After you have done the above steps you can test both functions. The custom logic happens when you create a new case and will automatically create a sub-case. The custom pie chart will be visible in your account overview.
 
 ## Part 3: Deploying the Mashup-Sample Website
 
-The mashup-sample website contains a few nice tipps and tricks what you can do to make your side-by-side applications nicer.
+The mashup-sample website contains a few nice tipps and tricks what you can do to make your side-by-side applications nicer. It only works properly if you also embedd it as a mashup.
 
 1. **Prepare and Deploy:**
 - Use `cd` to navigate to the folder “btp-mashup-sample” and deploy using `cf push`.
 
 2. **Configure Mashup:**
-- Create a new mashup, add the URL given after the deployment and add mashup parameters "param1" and "param2". 
+- Create a new mashup, add the URL given after the deployment and add two mashup parameters "param1" and "param2". 
 
 3. **Binding Parameters:**
 - You can either bind system variables in the mashup configuration (like logged user) or object variables during the UI adaptation (like account ID).
@@ -107,7 +111,7 @@ The mashup-sample website contains a few nice tipps and tricks what you can do t
 
 ## Additional Resources
 
-- We plan to add more links to sources regarding the upcoming "custom services feature" and also on how to develop [full CAP applications](https://cap.cloud.sap/docs/get-started/) here.
+- We plan to add more links to sources regarding the upcoming "custom services feature" and also on how to develop [full CAP applications](https://cap.cloud.sap/docs/get-started/) here which is the recommended way to build side-by-side applications.
 
 ## Contact
 
