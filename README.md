@@ -121,7 +121,7 @@ The mashup-sample website contains a few nice tipps and tricks what you can do t
 
 ## Additional Resources
 
-- We plan to add more links to sources regarding the upcoming "custom services feature" and also on how to develop [full CAP applications](https://cap.cloud.sap/docs/get-started/) here which is the recommended way to build side-by-side applications.
+- We plan to add more links to sources regarding the upcoming "custom services feature" and also on how to develop [full CAP applications](https://cap.cloud.sap/docs/get-started/) which is the recommended way to build side-by-side applications.
 
 ## Contact
 
