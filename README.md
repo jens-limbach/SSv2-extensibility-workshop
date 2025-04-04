@@ -35,7 +35,7 @@ Before you start: My advise is to right-click and open all links below in a new 
 - Create your own <a href="https://account.hanatrial.ondemand.com/" target="_blank">BTP Trial</a>, wait a bit and login.
 
 2. **Prepare Your Local Environment:**
-- Create a new folder named “btp extensions” on your computer and save the provided [ZIP file](https://github.com/jens-limbach/SSv2-extensibility-workshop/blob/2c6bdc7edcb9fdeaa133f66c78283e7915a1d972/SSv2-extension-workshop.zip) here.
+- Create a new folder named “btp extensions” on your computer and save the provided [ZIP file](https://github.com/jens-limbach/SSv2-extensibility-workshop/blob/d26de33f4c604e01aadbd264544a4fb57c581fa2/SSv2-extension-workshop.zip) here.
   - The zip file contains: a pdf with the training overview and 3 folders with sample code which we will use as part of this training
   
 3. **Unpack the ZIP File:**
@@ -79,7 +79,7 @@ In my last test with the LLM Mistral the generated website looked like below. No
 <img src="images/AIWebsite.png">
 
 ## Part 2: Deploying a Microservice with Cloud Functions
-_Note: If you directly jumped here, there are a few pre-required steps described in part 1 like getting your BTP and downloading the [ZIP file](https://github.com/jens-limbach/SSv2-extensibility-workshop/blob/2c6bdc7edcb9fdeaa133f66c78283e7915a1d972/SSv2-extension-workshop.zip) we use in this tutorial._
+_Note: If you directly jumped here, there are a few pre-required steps described in part 1 like getting your BTP and downloading the [ZIP file](https://github.com/jens-limbach/SSv2-extensibility-workshop/blob/d26de33f4c604e01aadbd264544a4fb57c581fa2/SSv2-extension-workshop.zip) we use in this tutorial._
 
 Now that you know how to deploy applications to the BTP Cloud Foundry environment, follow these steps to create one microservice with two cloud functions.
 - The first cloud function will have a "custom business logic" which can be called via an autoflow on save
@@ -105,7 +105,7 @@ After the `cf push` you should see a screen similar to this.
 After you have done the above steps you can test both functions. The custom logic happens when you create a new case and will automatically create a sub-case. The custom pie chart will be visible in your account overview.
 
 ## Part 3: Deploying the Mashup-Sample Website
-_Note: If you directly jumped here, there are a few pre-required steps described in part 1 like getting your BTP and downloading the [ZIP file](https://github.com/jens-limbach/SSv2-extensibility-workshop/blob/2c6bdc7edcb9fdeaa133f66c78283e7915a1d972/SSv2-extension-workshop.zip) we use in this tutorial._
+_Note: If you directly jumped here, there are a few pre-required steps described in part 1 like getting your BTP and downloading the [ZIP file](https://github.com/jens-limbach/SSv2-extensibility-workshop/blob/d26de33f4c604e01aadbd264544a4fb57c581fa2/SSv2-extension-workshop.zip) we use in this tutorial._
 
 The mashup-sample website contains a few nice tipps and tricks what you can do to make your side-by-side applications nicer. It only works properly if you also embedd it as a mashup.
 
