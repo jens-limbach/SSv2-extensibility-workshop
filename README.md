@@ -25,7 +25,7 @@ Before you start: My advise is to right-click and open all links below in a new 
 
 2. **Prepare Your Local Environment:**
 - Create a new folder named “btp extensions” on your computer and save the provided [ZIP file](https://github.com/jens-limbach/SSv2-extensibility-workshop/blob/c7aba46ded43a51dd40b309baa632e2c3498c40e/btp-extension-training.zip) here.
-
+  
 3. **Unpack the ZIP File:**
 - Unpack the ZIP file in your folder.
 
@@ -34,6 +34,8 @@ Before you start: My advise is to right-click and open all links below in a new 
 
 5. **Install Cloud Foundry CLI:**
 - Download and install the Cloud Foundry Command Line Tool suitable for your OS.
+- Mac OS X 64 bit: [intel cpu](https://packages.cloudfoundry.org/stable?release=macosx64&version=v8&source=githubIntel) | [arm cpu](https://packages.cloudfoundry.org/stable?release=macosarm&version=v8&source=github) 
+- Windows 64 bit: [zip](https://packages.cloudfoundry.org/stable?release=windows64&version=v8&source=github)
 
 6. **Command Line Setup:**
 - Open the command line (cmd for Windows or terminal for Mac) and navigate to the folder using `cd`.
