@@ -45,7 +45,7 @@ Before you start: My advise is to right-click and open all links below in a new 
 
 7. **Deploy to BTP:**
 - Login using `cf login`, provide the necessary details (see below), and deploy your site using `cf push`.
-- The api endpoint you find in your btp sub-account in the overview under "Cloud Foundry", e-mail and password are the credentials you use for your btp trial (for SAP users, it is the SAP-All).
+- The api endpoint you find in your btp sub-account in the overview under "Cloud Foundry Enviroment", e-mail and password are the credentials you use for your btp trial (for SAP users, it is the SAP-All).
 
 8. **Test your first web site on BTP**
 - After 'cf push' is finished, you will get a link and if you copy this into the browser you see your very first web-site deployed to BTP! This you could now already embedd as a mashup in SSv2.
@@ -72,10 +72,11 @@ Now that you know how to deploy applications to the BTP Cloud Foundry environmen
 
 3. **Configure in Sales & Service Cloud:**
 - Follow live instructions or refer to additional tutorials for custom business logic and key metrics setup.
-- For custom logic you can follow from step 3 onwards in this [tutorial](https://github.com/joek/async-sample).
-- For the “custom key metrics” part: Go to Admin Settings, create a communication system, provide the hostname of your microservice in the outbound configuration, create a custom key metric and provide the “customPieChart” endpoint of your microservice as a path.
+  - For custom logic you can follow from step 3 onwards in this [tutorial](https://github.com/joek/async-sample).
+  - For the “custom key metrics” part: Go to Admin Settings, create a communication system, provide the hostname of your microservice in the outbound configuration, create a custom key metric and provide the “customPieChart” endpoint of your microservice as a path.
 
 ## Part 3: Deploying the Mashup-Sample Website
+- The mashup-sample website contains a few nice tipps and tricks what you can do to make your side-by-side applications nicer.
 
 1. **Prepare and Deploy:**
 - Use `cd` to navigate to the folder “btp-mashup-sample” and deploy using `cf push`.
@@ -89,7 +90,7 @@ Now that you know how to deploy applications to the BTP Cloud Foundry environmen
 
 ## Additional Resources
 
-- We plan to add more links to sources regarding the upcoming custom services feature and also on how to develop full CAP applications here.
+- We plan to add more links to sources regarding the upcoming "custom services feature" and also on how to develop [full CAP applications](https://cap.cloud.sap/docs/get-started/) here.
 
 ## Contact
 
