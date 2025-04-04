@@ -17,6 +17,7 @@ This is really a beginners training to provide you with the very fundamentals. T
 - [Contact](#contact)
 
 ## Part 1: Deploying a Basic Website to BTP
+In the first part we will deploy a very basic website to BTP which "symbolizes" a powerful side-by-side application.
 
 Before you start: My advise is to right-click and open all links below in a new tab so that you do not navigate away from the documentation. ;)
 
@@ -76,7 +77,8 @@ Now that you know how to deploy applications to the BTP Cloud Foundry environmen
   - For the “custom key metrics” part: Go to Admin Settings, create a communication system, provide the hostname of your microservice in the outbound configuration, create a custom key metric and provide the “customPieChart” endpoint of your microservice as a path.
 
 ## Part 3: Deploying the Mashup-Sample Website
-- The mashup-sample website contains a few nice tipps and tricks what you can do to make your side-by-side applications nicer.
+
+The mashup-sample website contains a few nice tipps and tricks what you can do to make your side-by-side applications nicer.
 
 1. **Prepare and Deploy:**
 - Use `cd` to navigate to the folder “btp-mashup-sample” and deploy using `cf push`.
