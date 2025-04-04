@@ -74,6 +74,7 @@ In my last test with the LLM Mistral the generated website looked like below. No
 <img src="images/AIWebsite.png">
 
 ## Part 2: Deploying a Microservice with Cloud Functions
+Note: If you directly jumped here, there are a few pre-required steps described in part 1 like getting your BTP and downloading the ZIP file we use in this tutorial.
 
 Now that you know how to deploy applications to the BTP Cloud Foundry environment, follow these steps to create one microservice with two cloud functions.
 - The first cloud function will have a "custom business logic" which can be called via an autoflow on save
