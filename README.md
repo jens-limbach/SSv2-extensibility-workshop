@@ -42,7 +42,7 @@ Before you start: My advise is to right-click and open all links below in a new 
   - Windows 64 bit: [zip](https://packages.cloudfoundry.org/stable?release=windows64&version=v8&source=github)
 
 6. **Command Line Setup:**
-- Open the command line (cmd for Windows or terminal for Mac) and navigate to the folder using `cd`.
+- Open the command line (cmd for Windows or terminal for Mac) and navigate to the folder using the command `cd`.
 - i.e.: `cd C:\btp extensions\btp-website`
 
 7. **Deploy to BTP:**
