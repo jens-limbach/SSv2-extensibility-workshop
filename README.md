@@ -8,6 +8,9 @@ Welcome to your first journey in creating BTP frontend applications as a profess
 
 This is really a beginners training to provide you with the very fundamentals. There is no rocket science here. :)
 
+After this you will have created and learned the following:
+<img src="images/YouWillLearn.png">
+
 ## Table of Contents
 
 - [Part 1: Deploying a Basic Website to BTP](#part-1-deploying-a-basic-website-to-btp)
