@@ -27,7 +27,7 @@ Before you start: My advise is to right-click and open all links below in a new 
 - Create your own <a href="https://account.hanatrial.ondemand.com/" target="_blank">BTP Trial</a>, wait a bit and login.
 
 2. **Prepare Your Local Environment:**
-- Create a new folder named “btp extensions” on your computer and save the provided [ZIP file](https://github.com/jens-limbach/SSv2-extensibility-workshop/blob/c7aba46ded43a51dd40b309baa632e2c3498c40e/btp-extension-training.zip) here.
+- Create a new folder named “btp extensions” on your computer and save the provided [ZIP file](https://github.com/jens-limbach/SSv2-extensibility-workshop/blob/2c6bdc7edcb9fdeaa133f66c78283e7915a1d972/SSv2-extension-workshop.zip) here.
   - The zip file contains: a ppt with the training flow and 3 folders with sample code which we will use as part of this training
   
 3. **Unpack the ZIP File:**
