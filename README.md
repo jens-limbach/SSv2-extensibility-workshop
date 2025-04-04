@@ -74,7 +74,7 @@ In my last test with the LLM Mistral the generated website looked like below. No
 <img src="images/AIWebsite.png">
 
 ## Part 2: Deploying a Microservice with Cloud Functions
-Note: If you directly jumped here, there are a few pre-required steps described in part 1 like getting your BTP and downloading the ZIP file we use in this tutorial.
+_Note: If you directly jumped here, there are a few pre-required steps described in part 1 like getting your BTP and downloading the [ZIP file](https://github.com/jens-limbach/SSv2-extensibility-workshop/blob/2c6bdc7edcb9fdeaa133f66c78283e7915a1d972/SSv2-extension-workshop.zip) we use in this tutorial._
 
 Now that you know how to deploy applications to the BTP Cloud Foundry environment, follow these steps to create one microservice with two cloud functions.
 - The first cloud function will have a "custom business logic" which can be called via an autoflow on save
@@ -100,6 +100,7 @@ After the `cf push` you should see a screen similar to this.
 After you have done the above steps you can test both functions. The custom logic happens when you create a new case and will automatically create a sub-case. The custom pie chart will be visible in your account overview.
 
 ## Part 3: Deploying the Mashup-Sample Website
+_Note: If you directly jumped here, there are a few pre-required steps described in part 1 like getting your BTP and downloading the [ZIP file](https://github.com/jens-limbach/SSv2-extensibility-workshop/blob/2c6bdc7edcb9fdeaa133f66c78283e7915a1d972/SSv2-extension-workshop.zip) we use in this tutorial._
 
 The mashup-sample website contains a few nice tipps and tricks what you can do to make your side-by-side applications nicer. It only works properly if you also embedd it as a mashup.
 
