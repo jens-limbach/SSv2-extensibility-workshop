@@ -19,7 +19,7 @@ Welcome to your first journey in creating BTP frontend applications as a profess
 ### Steps:
 
 1. **Create a BTP Trial Account:**
-- Create your own BTP Trial, wait a bit and login.
+Create your own BTP Trial, wait a bit and login.
 
 2. **Prepare Your Local Environment:**
 - Create a new folder named “btp extensions” on your computer and save the provided ZIP file there.
