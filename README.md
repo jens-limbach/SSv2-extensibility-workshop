@@ -8,6 +8,9 @@ Welcome to your first journey in creating BTP frontend applications as a profess
 
 This is really a beginners training to provide you with the very fundamentals. There is no rocket science here. :)
 
+**Pre-requisites:**
+- You should have admin access to a SAP Sales and Service Cloud Version 2 system.
+
 After this you will have created and learned the following: 
 <img src="images/YouLearn.png">
 
