@@ -8,6 +8,8 @@ Welcome to your first journey in creating side-by-side extensions for SAP Sales 
 
 This is really a beginners training to provide you with the very fundamentals. There is no rocket science here. :)
 
+_Note: For beginners it is recommended to start with part 1 and not directly jump to any later chapter._
+
 **Pre-requisites:**
 - You should have admin access to a SAP Sales and Service Cloud Version 2 system.
 
