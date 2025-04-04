@@ -20,9 +20,10 @@ Welcome to your first journey in creating BTP frontend applications as a profess
 
 1. **Create a BTP Trial Account:**
 - Create your own <a href="https://account.hanatrial.ondemand.com/" target="_blank">BTP Trial</a>, wait a bit and login.
+- Tipp: Right-click and open this link in a new tab in order not to navigate away from this documentation ;)
 
 2. **Prepare Your Local Environment:**
-- Create a new folder named “btp extensions” on your computer and save the provided [ZIP file](https://github.com/jens-limbach/SSv2-extensibility-workshop/blob/c7aba46ded43a51dd40b309baa632e2c3498c40e/btp-extension-training.zip) here.[here](https://www.geeksforgeeks.org/){:target="_blank"} 
+- Create a new folder named “btp extensions” on your computer and save the provided [ZIP file](https://github.com/jens-limbach/SSv2-extensibility-workshop/blob/c7aba46ded43a51dd40b309baa632e2c3498c40e/btp-extension-training.zip) here.
 
 3. **Unpack the ZIP File:**
 - Unpack the ZIP file in your folder.
