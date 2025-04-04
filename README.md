@@ -32,7 +32,7 @@ Before you start: My advise is to right-click and open all links below in a new 
 - Unpack the ZIP file in your folder.
 
 4. **Edit Manifest File:**
-- Open the folder “btp-website” and edit the “manifest.yaml” file with your initials, e.g., `"- name: my-web-page-JL"`.
+- Open the folder “btp-website” and edit the “manifest.yaml” by replacing "JL" with your own initials in this line `"- name: my-web-page-JL"`.
 
 5. **Install Cloud Foundry CLI:**
 - Download and install the Cloud Foundry Command Line Tool suitable for your OS.
@@ -65,29 +65,32 @@ Now that you know how to deploy applications to the BTP Cloud Foundry environmen
 - The second cloud function will contain the data stream necessary to feed the "custom key metrics" on the account overview
 
 1. **Edit Your Manifest File:**
-- Open the "btp-microservice" folder and edit the "manifest.yaml" file with your initials.
+- Open the "btp-microservice" folder and edit the "manifest.yaml" file again substituting "JL" with your own initials in this line: 'name: myservice-jl'
 
 2. **Deploy Microservice:**
 - Use `cd` to navigate to the folder and deploy with `cf push`.
 
 3. **Configure in Sales & Service Cloud:**
 - Follow live instructions or refer to additional tutorials for custom business logic and key metrics setup.
+- For custom logic you can follow from step 3 onwards in this [tutorial](https://github.com/joek/async-sample).
+- For the “custom key metrics” part: Go to Admin Settings, create a communication system, provide the hostname of your microservice in the outbound configuration, create a custom key metric and provide the “customPieChart” endpoint of your microservice as a path.
 
 ## Part 3: Deploying the Mashup-Sample Website
 
 1. **Prepare and Deploy:**
-- Open the folder “btp-mashup-sample” and deploy using `cf push`.
+- Use `cd` to navigate to the folder “btp-mashup-sample” and deploy using `cf push`.
 
 2. **Configure Mashup:**
-- Embed the resulting URL and configure mashup parameters.
+- Create a new mashup, add the URL given after the deployment and add mashup parameters "param1" and "param2". 
 
 3. **Binding Parameters:**
-- Bind system and object variables in the mashup configuration.
+- You can either bind system variables in the mashup configuration (like logged user) or object variables during the UI adaptation (like account ID).
+- Assumption: You know how to create new tabs in the adaptation mode and add mashups there.
 
 ## Additional Resources
 
-- For building a full CAP application, refer to this [tutorial](https://github.com/SAP-samples/sales-and-service-cloud-extensions/tree/main/CustomServiceBasicCAPSample).
+- We plan to add more links to sources regarding the upcoming custom services feature and also on how to develop full CAP applications here.
 
 ## Contact
 
-Cheers, Jens
+jens.limbach@sap.com
