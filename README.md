@@ -77,15 +77,18 @@ Now that you know how to deploy applications to the BTP Cloud Foundry environmen
 - The second cloud function will contain the data stream necessary to feed the "custom key metrics" on the account overview
 
 1. **Edit Your Manifest File:**
-- Open the "btp-microservice" folder and edit the "manifest.yaml" file again adding your initials like here: 'name: myservice-JL'
+- Open the "btp-microservice" folder and edit the "manifest.yaml" file. This time you need to change a few things: add again your initials to the name, add your user, pw and SSv2 tenant url to the file
+
+These attributes need to be adjusted by you:
+<img src="images/ManifestEdit.png">
 
 2. **Deploy Microservice:**
-- Use `cd` to navigate to the folder and deploy with `cf push`.
+- Open the command line, use `cd` to navigate to the folder and deploy your microservice with `cf push`. The magic happens in this case in the `app.js` file where we have defined two cloud functions (endpoints). One is called `/onCreateSubCase` and the other one is called `/customPieChart`. We will connect those two in the next step to our SAP Sales and Service Cloud Version 2.
 
 3. **Configure in Sales & Service Cloud:**
 - Follow live instructions or refer to additional tutorials for custom business logic and key metrics setup.
-  - For custom logic you can follow from step 3 onwards in this [tutorial](https://github.com/joek/async-sample).
-  - For the “custom key metrics” part: Go to Admin Settings, create a communication system, provide the hostname of your microservice in the outbound configuration, create a custom key metric and provide the “customPieChart” endpoint of your microservice as a path.
+  - For custom logic you can follow from step 3 onwards in this [tutorial](https://github.com/joek/async-sample). The only difference is that the `path` is not `/webhook` but will be `/onCreateSubCase`.
+  - For the “custom key metrics” part: Go to Admin Settings, create a communication system, provide the hostname of your microservice in the outbound configuration, create a custom key metric and provide the `/customPieChart` endpoint of your microservice as a path.
 
 ## Part 3: Deploying the Mashup-Sample Website
 
