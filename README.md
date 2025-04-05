@@ -134,8 +134,9 @@ The mashup-sample website contains a few nice tipps and tricks what you can do t
 
 ## Additional Resources
 - [Video where I show a full-stack pro-code application](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_zpj5ofl9) build with the SAP Cloud Application Programming Model (short CAP)
+- - New to SAP Sales and Service Cloud Version 2? - check out this [video microsite](https://intelligent-cx-sales-and-service-cloud-intro-5179.brandcast.io/) where I show many of the solution capabilities but also some more tech deep dives in short, hands-on and non-marketing videos :)
 - [API Reference for SAP Sales and Service Cloud Version ](https://api.sap.com/package/SAPSalesServiceCloudV2/rest) which we use for the "sub-case" creation in our microservice
-- New to SAP Sales and Service Cloud Version 2? - check out this [video microsite](https://intelligent-cx-sales-and-service-cloud-intro-5179.brandcast.io/) where I show many of the solution capabilities but also some more tech deep dives in short, hands-on and non-marketing videos :)
+- You can also check out the official documentation for SAP [Sales](https://help.sap.com/docs/CX_NG_SALES?locale=en-US) and [Service](https://help.sap.com/docs/CX_NG_SVC?locale=en-US) Cloud Version 2. Especially interessting in the context of this training is for sure the [Extensibility](https://help.sap.com/docs/CX_NG_SALES/ea5ff8b9460a43cb8765a3c07d3421fe/90214e2fe20940dd8cd68c25742c4f9b.html?locale=en-US) section.
 
 We plan to add in the future more usefull ressources regarding the upcoming "custom services feature" and also on how to develop [full CAP applications](https://cap.cloud.sap/docs/get-started/) which is the recommended way to build side-by-side applications.
 
