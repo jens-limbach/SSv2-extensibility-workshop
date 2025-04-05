@@ -140,4 +140,4 @@ We plan to add in the future more usefull ressources regarding the upcoming "cus
 
 ## Contact
 
-jens.limbach@sap.com
+Jens Limbach @ SAP :)
