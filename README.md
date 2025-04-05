@@ -10,6 +10,8 @@ This is really a beginners training to provide you with the very fundamentals. T
 
 _Note: For beginners it is recommended to start with part 1 and not directly jump to any later chapter._
 
+_Hint: My advise is to right-click and open all links below in a new tab so that you do not navigate away from the documentation. ;)_
+
 📺**Video Tutorial**
 If you prefer to watch a video instead of following the instructions below, I recorded every single step in this video: [Video Tutorial - SSv2 Extensibility Workshop](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_94slnb6w)
 
@@ -29,8 +31,6 @@ After this you will have created and learned the following:
 
 ## Part 1: Deploying a Basic Website to BTP
 In the first part we will deploy a very basic website to BTP which "symbolizes" a powerful side-by-side application.
-
-Before you start: My advise is to right-click and open all links below in a new tab so that you do not navigate away from the documentation. ;)
 
 ### Steps:
 
