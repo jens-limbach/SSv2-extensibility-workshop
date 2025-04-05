@@ -133,8 +133,10 @@ The mashup-sample website contains a few nice tipps and tricks what you can do t
 - Assumption: You know how to create new tabs in the adaptation mode and add mashups there.
 
 ## Additional Resources
+- (Video where I show a full-stack pro-code application)[https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_zpj5ofl9] build with the SAP Cloud Application Programming Model (short CAP)
+- (API Reference for SAP Sales and Service Cloud Version 2)[https://api.sap.com/package/SAPSalesServiceCloudV2/rest]
 
-- We plan to add more links to sources regarding the upcoming "custom services feature" and also on how to develop [full CAP applications](https://cap.cloud.sap/docs/get-started/) which is the recommended way to build side-by-side applications.
+We plan to add in the future more usefull ressources regarding the upcoming "custom services feature" and also on how to develop [full CAP applications](https://cap.cloud.sap/docs/get-started/) which is the recommended way to build side-by-side applications.
 
 ## Contact
 
