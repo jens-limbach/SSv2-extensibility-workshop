@@ -1,0 +1,13 @@
+---
+applications:
+- name: myservice-JL
+  command: node app.js
+  instances: 3
+  memory: 128M
+  default-route: true
+  buildpack: nodejs_buildpack
+  env: 
+    OPTIMIZE_MEMORY: "true"
+    SSC_USER: YourUser
+    SSC_PASSWORD: YourPW
+    SERVICE_URL: https://my1000xxx.de1.demo.crm.cloud.sap
