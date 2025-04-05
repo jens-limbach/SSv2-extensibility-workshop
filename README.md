@@ -74,8 +74,11 @@ After the `cf push` you will see the link under which your new website will be a
 - i.e.: You can just prompt something like:
   >Create a website that shows a sample SWOT analysis for a large company from an account managers perspective. Make every quadrant of the SWOT Analysis with a different color. Also add a list of goals to be achieved with this account in the future. Add matching Unicode icons to the different goals. Everything should be included in a single HMTL page."
 
-10. **Deploy Updated Website:**
-- Execute `cf push` again to update your website on BTP. Then test again with the provided link.
+10. **Edit the index.htm**
+- Open your index.htm file with a texteditor that shows you the source code, copy the text from your AI answer starting with <html> and ending with </html> and overwrite everything that is currently in your index.htm.
+
+11. **Deploy Updated Website:**
+- Execute `cf push` again to update your website on BTP. Then test again with the provided link and you should see a wonderful AI generated website.
 
 In my last test with the LLM Mistral the generated website looked like below. Not very pretty, still static but for the effort we spend quite nice.
 <img src="images/AIWebsite.png">
