@@ -11,7 +11,7 @@ This is really a beginners training to provide you with the very fundamentals. T
 _Note: For beginners it is recommended to start with part 1 and not directly jump to any later chapter._
 
 📺**Video Tutorial**
-If you prefer to watch a video than following the instructions below, I recorded every single step in this video: [Video Tutorial - SSv2 Extensibility Workshop](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_94slnb6w)
+If you prefer to watch a video instead of following the instructions below, I recorded every single step in this video: [Video Tutorial - SSv2 Extensibility Workshop](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_94slnb6w)
 
 **Pre-requisites:**
 - You should have admin access to a SAP Sales and Service Cloud Version 2 system.
