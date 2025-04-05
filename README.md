@@ -106,14 +106,16 @@ After the `cf push` you should see a screen similar to this.
 <img src="images/Console3.png">
 
 3. **Configure in Sales & Service Cloud:**
-- Follow live instructions or refer to additional tutorials for custom business logic and key metrics setup.
-  - For custom logic you can follow from step 3 onwards in this [tutorial](https://github.com/joek/async-sample). The only difference is that the `path` which is given in the autoflow will not be `/webhook` but will be `/onCreateSubCase`.
-  - For the “custom key metrics” part: Go to Admin Settings, create a custom key metric, select the above created communication system and provide the `/customPieChart` endpoint of your microservice as a path.
+- Follow live instructions or refer to my [how-to video](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_94slnb6w&kalturaStartTime=386) starting with minute 6:25. 
+  - In short: For "custom logic" part: Go to Admin Settings, create a new communication system with your service url and an outbound configuration, create an autoflow, specifiy a condition and add an event notification to it where you provide the `/onCreateSubCase` as the path. Save and activate the autoflow.
+  - In short: For the “custom key metrics” part: Go to Admin Settings, create a custom key metric, select the above created communication system and provide the `/customPieChart` endpoint of your microservice as a path.
  
 After you have done the above steps you can test both functions. The custom logic happens when you create a new case and will automatically create a sub-case. The custom pie chart will be visible in your account overview.
 
 ## Part 3: Deploying the Mashup-Sample Website
 _Note: If you directly jumped here, there are a few pre-required steps described in part 1 like getting your BTP access, downloading the github repository as a ZIP file to your local computer and installing the cloud foundry command line tool._
+
+You find also again detailed in structions in my [how-to video](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_94slnb6w&kalturaStartTime=675) starting with minute 11:15.
 
 The mashup-sample website contains a few nice tipps and tricks what you can do to make your side-by-side applications nicer. It only works properly if you also embedd it as a mashup.
 
