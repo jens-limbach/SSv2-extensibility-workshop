@@ -1,0 +1,3 @@
+applications:
+- name: my-web-page-JL
+  buildpack: https://github.com/cloudfoundry/staticfile-buildpack
