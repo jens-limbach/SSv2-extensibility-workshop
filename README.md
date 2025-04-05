@@ -78,7 +78,7 @@ After the `cf push` you will see the link under which your new website will be a
 - Open your index.htm file with a texteditor that shows you the source code, copy the text from your AI answer starting with <html> and ending with </html> and overwrite everything that is currently in your index.htm.
 
 11. **Deploy Updated Website:**
-- Execute `cf push` again to update your website on BTP. Then test again with the provided link and you should see a wonderful AI generated website.
+- Execute `cf push` again to update your website on BTP. Then test again with the provided link and you should see a wonderful AI generated website running on BTP.
 
 In my last test with the LLM Mistral the generated website looked like below. Not very pretty, still static but for the effort we spend quite nice.
 <img src="images/AIWebsite.png">
