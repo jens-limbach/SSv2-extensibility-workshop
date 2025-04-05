@@ -32,17 +32,19 @@ Before you start: My advise is to right-click and open all links below in a new 
 ### Steps:
 
 1. **Create a BTP Trial Account:**
-- Create your own <a href="https://account.hanatrial.ondemand.com/" target="_blank">BTP Trial</a>, wait a bit and login.
+- Create your own <a href="https://account.hanatrial.ondemand.com/" target="_blank">BTP Trial</a>, choose your data center, wait a bit and login.
 
 2. **Prepare Your Local Environment:**
-- Create a new folder named “btp extensions” on your computer and save the provided [ZIP file](https://github.com/jens-limbach/SSv2-extensibility-workshop/blob/d26de33f4c604e01aadbd264544a4fb57c581fa2/SSv2-extension-workshop.zip) here.
-  - The zip file contains: a pdf with the training overview and 3 folders with sample code which we will use as part of this training
+- Download the entire repository as a ZIP file and copy it to a location of choice on your computer (we will work from now on all the time with those files and folders)
+  - The zip file contains: a pdf with the training overview and 3 folders with sample code which we will use as part of this training (it will also contain the images and read.me but those are not relevant in the next steps)
+
+<img src="images/Download.png">
   
 3. **Unpack the ZIP File:**
-- Unpack the ZIP file in your folder.
+- Unpack the ZIP file on your computer.
 
 4. **Edit Manifest File:**
-- Open the folder “btp-website” and edit the “manifest.yaml” by adding your own initials (i.e. "-JL") in this line `"- name: my-web-page-JL"`.
+- Open the folder “btp-website” and edit the “manifest.yaml” by adding your own initials (instead of "-JL") in this line `"- name: my-web-page-JL"`.
 
 5. **Install Cloud Foundry CLI:**
 - Download and install the Cloud Foundry Command Line Tool suitable for your OS.
