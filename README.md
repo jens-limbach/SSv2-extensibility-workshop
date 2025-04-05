@@ -44,7 +44,7 @@ Before you start: My advise is to right-click and open all links below in a new 
 - Unpack the ZIP file on your computer.
 
 4. **Edit Manifest File:**
-- Open the folder “btp-website” and edit the “manifest.yaml” by adding your own initials (instead of "-JL") in this line `"- name: my-web-page-JL"`.
+- Open the folder “btp-website” and edit the “manifest.yaml” by adding your own initials (instead of "-JL") in this line `"- name: my-web-page-JL"`. We do this so that we have a unique name across this BTP domain. Later this will be the base for our generated web domain.
 
 5. **Install Cloud Foundry CLI:**
 - Download and install the Cloud Foundry Command Line Tool suitable for your OS.
@@ -88,7 +88,7 @@ Now that you know how to deploy applications to the BTP Cloud Foundry environmen
 - The second cloud function will contain the data stream necessary to feed the "custom key metrics" on the account overview
 
 1. **Edit Your Manifest File:**
-- Open the "btp-microservice" folder and edit the "manifest.yaml" file. This time you need to change a few things: add again your initials to the name, add your user, pw and SSv2 tenant url to the file
+- Open the "btp-microservice" folder and edit the "manifest.yaml" file. This time you need to change a few things: add again your initials after the name, add your user, pw and SSv2 tenant url to the file
 
 These attributes need to be adjusted by you:
 <img src="images/ManifestEdit.png">
@@ -111,13 +111,16 @@ _Note: If you directly jumped here, there are a few pre-required steps described
 
 The mashup-sample website contains a few nice tipps and tricks what you can do to make your side-by-side applications nicer. It only works properly if you also embedd it as a mashup.
 
-1. **Prepare and Deploy:**
+1. **Edit Your Manifest File:**
+- Open the "btp-mashup-sample" folder and edit the "manifest.yaml" file by adding your own initials (instead of "-JL") in this line `- name: my-mashup-sample-JL`.
+
+2. **Prepare and Deploy:**
 - Use `cd` to navigate to the folder “btp-mashup-sample” and deploy using `cf push`.
 
-2. **Configure Mashup:**
+3. **Configure Mashup:**
 - Create a new mashup, add the URL given after the deployment and add two mashup parameters "param1" and "param2". 
 
-3. **Binding Parameters:**
+4. **Binding Parameters:**
 - You can either bind system variables in the mashup configuration (like logged user) or object variables during the UI adaptation (like account ID).
 - Assumption: You know how to create new tabs in the adaptation mode and add mashups there.
 
