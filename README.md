@@ -18,7 +18,7 @@ After this you will have created and learned the following:
 
 **Video Tutorial**
 If you prefer to watch a video than following the instructions below, I recorded every single step in this video.
-[Video Tutorial - SSv2 Extensibility Workshop](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_94slnb6w)
+-[Video Tutorial - SSv2 Extensibility Workshop](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_94slnb6w)
 
 ## Table of Contents
 
