@@ -1,4 +1,4 @@
-# SSv2 - Extensibility Workshop
+![image](https://github.com/user-attachments/assets/f551e178-ff2e-4fba-9186-ee542c176cd1)# SSv2 - Extensibility Workshop
 
 Welcome to your first journey in creating side-by-side extensions for SAP Sales and Service Cloud Version 2 as a pro code developer! This guide will provide step-by-step instructions accompanied by live sessions, allowing you to get started with V2 development. After completing these steps, you’ll be able to develop:
 
@@ -134,7 +134,8 @@ The mashup-sample website contains a few nice tipps and tricks what you can do t
 
 ## Additional Resources
 - [Video where I show a full-stack pro-code application](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_zpj5ofl9) build with the SAP Cloud Application Programming Model (short CAP)
-- [API Reference for SAP Sales and Service Cloud Version ](https://api.sap.com/package/SAPSalesServiceCloudV2/rest)
+- [API Reference for SAP Sales and Service Cloud Version ](https://api.sap.com/package/SAPSalesServiceCloudV2/rest) which we use for the "sub-case" creation in our microservice
+- New to SAP Sales and Service Cloud Version 2? - check out this [video microsite](https://intelligent-cx-sales-and-service-cloud-intro-5179.brandcast.io/) where I show many of the solution capabilities but also some more tech deep dives in short, hands-on and non-marketing videos :)
 
 We plan to add in the future more usefull ressources regarding the upcoming "custom services feature" and also on how to develop [full CAP applications](https://cap.cloud.sap/docs/get-started/) which is the recommended way to build side-by-side applications.
 
