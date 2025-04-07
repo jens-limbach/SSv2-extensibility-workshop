@@ -15,6 +15,9 @@ _Hint: My advise is to right-click and open all links below in a new tab so that
 📺**Video Tutorial**
 If you prefer to watch a video instead of following the instructions below, I recorded every single step in this video: [Video Tutorial - SSv2 Extensibility Workshop](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_94slnb6w)
 
+<div id="kaltura_player_334045682" style="width:768px;height:432px;"></div>
+<script type="text/javascript" src="https://cdnapisec.kaltura.com/p/1921661/embedPlaykitJs/uiconf_id/54739572?autoembed=true&targetId=kaltura_player_334045682&entry_id=1_94slnb6w"></script>
+
 **Pre-requisites:**
 - You should have admin access to a SAP Sales and Service Cloud Version 2 system.
 
