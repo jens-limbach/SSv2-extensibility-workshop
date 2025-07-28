@@ -1,6 +1,161 @@
----
-title: Custom Services
-filename: custom-services.md
---- 
+# Custom Services - Step by Step
 
-This is a test.
+minimum steps we need to do to make a custom services application based on a CAP app from scratch.
+
+📺**Video Tutorial**
+You can either follow the steps below or watch the video (10 minutes) where I show each and every step needed in full detail.
+
+[Video Tutorial - SSv2 Extensibility Workshop](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_5r2suzns)
+
+The video shows very nice all the detailed steps including both the CAP and also the Sales and Service V2 custom services part.
+
+Feel free to forward! 😊
+
+**Pre-requisites:**
+•	You have a BTP sub-account and access to Cloud Foundry
+•	You have setup a Hana Cloud on your BTP Sub-Account
+•	You have setup VSCode and done the initial setup for CAP
+•	You are a little bit familiar with coding or curious enough to get into it :)
+
+**Step by Step Guide:**
+1.	Open VSCode and the terminal
+2.	Enter in the terminal “cds init ProjectOrder”
+3.	Enter in the terminal  “code ProjectOrder”
+4.	Create schema.cds file with your entity in the db folder  Snippet 1
+
+Snippet 1:
+```
+using {managed} from '@sap/cds/common';
+
+namespace sap.capire.customservice;
+
+entity ProjectOrder : managed {
+    key id                   : UUID;
+        name                 : String not null;
+        customerName         : String;
+        status               : String default 'ACTIVE';
+        startDate            : String;
+        endDate              : String;
+        isIndividualCustomer : Boolean;
+        customerEmail        : String;
+}
+```
+
+5.	Create project-order-service.cds file in the srv folder with your service definition  Snippet 2
+
+Snippet 2:
+```
+using {sap.capire.customservice as projectorderschema} from '../db/schema';
+
+service ProjectOrderService @(path: '/project-order-service') {
+
+    @odata.draft.bypass
+    entity ProjectOrder as projection on projectorderschema.ProjectOrder;
+}
+```
+
+6.	Enter in the terminal
+a.	cds add hana
+b.	cds add xsuaa
+c.	cds add mta
+d.	cds add approuter
+7.	Adapt some files manually…
+a.	Adjust the package.json (change auth to mocked, add hana db, remove sql native hana ssociations ?)  Snippet 3
+ 
+
+Snippet 3:
+```
+"cds": {
+    "requires": {
+      "[production]": {
+      "db": "hana",
+      "auth": "mocked"
+      },
+      "auth": "mocked"
+    }
+  }
+```
+
+b.	Adjust the app/router/xs-app.json by adding CORS exceptions (for your tenant) and adjust authMethod=none  Snippet 4 and 5
+ 
+
+Snippet 4:
+```
+  "authenticationMethod": "none",
+```
+
+Snippet 5:
+
+```
+,
+  "cors": [
+    {
+      "uriPattern": "(.*)",
+      "allowedMethods": [
+        "GET",
+        "POST",
+        "OPTIONS",
+        "PATCH",
+        "PUT",
+        "DELETE"
+      ],
+      "allowedOrigin": [
+        {
+          "host": "localhost",
+          "protocol": "http",
+          "port": 5000
+        },
+        {
+          "host": "localhost",
+          "protocol": "http",
+          "port": 4100
+        },
+        {
+          "host": "localhost",
+          "protocol": "http",
+          "port": 4200
+        },
+        {
+          "host": "ns-staging.cxm-salescloud.com",
+          "protocol": "https"
+        },
+        {
+          "host": "YOURTENANT.de1.demo.crm.cloud.sap",
+          "protocol": "https"
+        }
+      ],
+      "allowedHeaders": [
+        "Accept",
+        "Authorization",
+        "Content-Type",
+        "Access-Control-Allow-Credentials",
+        "sap-c4c-rawagent",
+        "X-Csrf-Token",
+        "If-Match"
+      ],
+      "exposeHeaders": [
+        "Etag",
+        "X-Csrf-Token"
+      ],
+      "allowedCredentials": true
+    }
+  ]
+```
+
+c.	Adapt the mta.yaml by changing the generated hana db name according to your own DB name (3 places in i.e. to “name: customservice-basic-db”) 
+
+ 
+
+d.	In case your BTP subaccount has spaces in it’s name: adjust the xsappname: ProjectOrder in your mta.yaml by removing the placeholders for subaccount and space.
+e.	Optional hint: Add 128M memory to all your services in mta.yaml to save some dev space
+8.	Enter in your terminal
+a.	npm update --package-lock-only
+b.	mbt build
+c.	cf login
+d.	cf deploy mta_file
+9.	Copy the app router url and try out your backend service.
+10.	Enter in the terminal “cds -2 json .\srv\projectorder-service.cds” and copy the json into a new file
+11.	Create a new custom service entity in the Sales and Service Cloud V2 frontend, convert the CAP json file, download the final json definition and upload it in custom services
+12.	Add UI’s to your custom service
+13.	Assign it to your user via a business role
+14.	Test!
