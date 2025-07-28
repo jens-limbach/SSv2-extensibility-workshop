@@ -55,11 +55,13 @@ service ProjectOrderService @(path: '/project-order-service') {
 ```
 
 6.	Enter in the terminal
-a.	cds add hana
-b.	cds add xsuaa
-c.	cds add mta
-d.	cds add approuter
-7.	Adapt some files manually…
+    a.	```cds add hana```
+    b.	```cds add xsuaa```
+    c.	```cds add mta```
+    d.	```cds add approuter```
+
+8.	Adapt some files manually…
+
 a.	Adjust the package.json (change auth to mocked, add hana db, remove sql native hana ssociations ?)  Snippet 3
  
 
@@ -148,14 +150,25 @@ c.	Adapt the mta.yaml by changing the generated hana db name according to your o
 
 d.	In case your BTP subaccount has spaces in it’s name: adjust the xsappname: ProjectOrder in your mta.yaml by removing the placeholders for subaccount and space.
 e.	Optional hint: Add 128M memory to all your services in mta.yaml to save some dev space
+
 8.	Enter in your terminal
-a.	npm update --package-lock-only
-b.	mbt build
-c.	cf login
-d.	cf deploy mta_file
-9.	Copy the app router url and try out your backend service.
-10.	Enter in the terminal “cds -2 json .\srv\projectorder-service.cds” and copy the json into a new file
-11.	Create a new custom service entity in the Sales and Service Cloud V2 frontend, convert the CAP json file, download the final json definition and upload it in custom services
-12.	Add UI’s to your custom service
-13.	Assign it to your user via a business role
-14.	Test!
+   
+```npm update --package-lock-only```
+
+```mbt build```
+
+```cf login```
+
+```cf deploy mta_file```
+
+10.	Copy the app router url and try out your backend service.
+    
+12.	Enter in the terminal “cds -2 json .\srv\projectorder-service.cds” and copy the json into a new file
+
+13.	Create a new custom service entity in the Sales and Service Cloud V2 frontend, convert the CAP json file, download the final json definition and upload it in custom services
+    
+14.	Add UI’s to your custom service
+    
+15.	Assign it to your user via a business role
+    
+16.	Test!
