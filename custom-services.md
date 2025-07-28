@@ -5,9 +5,11 @@ These are the minimum steps for creating our own custom services application bas
 📺**Video Tutorial**
 You can either follow the steps below or watch the video (10 minutes) where I show each and every step needed in full detail.
 
--> [Video Tutorial - SSv2 Extensibility Workshop](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_5r2suzns)
+-> [Video Tutorial - Custom Services](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_5r2suzns)
 
 The video shows very nice all the detailed steps including both the CAP and also the Sales and Service V2 custom services part.
+
+PS: If you are also interessted in some very basics about extensibility you can also check out my [main page](https://github.com/jens-limbach/SSv2-extensibility-workshop/tree/main) with a guide on mashups and custom code in a cloud function.
 
 **Pre-requisites:**
 
