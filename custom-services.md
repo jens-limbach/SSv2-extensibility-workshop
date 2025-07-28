@@ -67,6 +67,8 @@ service ProjectOrderService @(path: '/project-order-service') {
 9.	Adapt some files manually…
 
 -> Adjust the ```package.json``` (overwrite the cds section by changing auth to mocked and adding the hana db) -> Snippet 3
+
+<img src="images/package-json.png">
  
 Snippet 3:
 ```
@@ -149,6 +151,8 @@ Snippet 5:
 ```
 
 -> Adapt the ```mta.yaml``` by changing the generated hana db name according to your own DB name (3 places in i.e. to “name: customservice-basic-db”) 
+
+<img src="images/mta-yaml.png">
 
 -> In case your BTP subaccount has spaces in it’s name: adjust the ```xsappname: ProjectOrder``` in your ```mta.yaml``` by removing the generated placeholders for subaccount and space.
 
