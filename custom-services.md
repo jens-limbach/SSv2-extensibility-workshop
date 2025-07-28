@@ -82,6 +82,8 @@ Snippet 3:
 ```
 
 -> Adjust the ```app/router/xs-app.json``` by adding CORS exceptions (for your tenant) and adjust authMethod=none -> Snippet 4 and 5
+
+<img src="images/xs-app-json.png">
  
 Snippet 4:
 ```
