@@ -133,6 +133,7 @@ The mashup-sample website contains a few nice tipps and tricks what you can do t
 - Assumption: You know how to create new tabs in the adaptation mode and add mashups there.
 
 ## Additional Resources
+- [Step by Step Video Guide for Custom Services](https://github.com/jens-limbach/SSv2-extensibility-workshop/edit/main/custom-services.md) where I show all steps to create a CAP backend connected to a Hana DB which are used to feed the Frontend of a new Custom Object in SAP Sales and Service Cloud V2
 - [Video where I show a full-stack pro-code application](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_zpj5ofl9) build with the SAP Cloud Application Programming Model (short CAP)
 - - New to SAP Sales and Service Cloud Version 2? - check out this [video microsite](https://intelligent-cx-sales-and-service-cloud-intro-5179.brandcast.io/) where I show many of the solution capabilities but also some more tech deep dives in short, hands-on and non-marketing videos :)
 - [API Reference for SAP Sales and Service Cloud Version ](https://api.sap.com/package/SAPSalesServiceCloudV2/rest) which we use for the "sub-case" creation in our microservice
