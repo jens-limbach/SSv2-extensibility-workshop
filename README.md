@@ -8,6 +8,8 @@ Welcome to your first journey in creating side-by-side extensions for SAP Sales 
 
 This is really a beginners training to provide you with the very fundamentals. There is no rocket science here. :)
 
+A little bit more advanced is my [Step by Step Video Guide for Custom Services](https://github.com/jens-limbach/SSv2-extensibility-workshop/blob/main/custom-services.md) where I show all steps to create a CAP backend connected to a Hana DB which are used to feed the frontend of a new Custom Object in SAP Sales and Service Cloud V2.
+
 _Note: For beginners it is recommended to start with part 1 and not directly jump to any later chapter._
 
 _Hint: My advise is to right-click and open all links below in a new tab so that you do not navigate away from the documentation. ;)_
