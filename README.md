@@ -20,7 +20,7 @@ If you prefer to watch a video instead of following the instructions below, I re
 **Pre-requisites:**
 - You should have admin access to a SAP Sales and Service Cloud Version 2 system.
 
-After this you will have created and learned the following: 
+After you completed this guide you will have created and learned the following: 
 <img src="images/YouLearn.png">
 
 ## Table of Contents
