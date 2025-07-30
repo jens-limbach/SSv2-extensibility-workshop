@@ -23,8 +23,8 @@ If you want to see less CAP Development and more on how it looks later for the e
 **Step by Step Guide:**
 
 1.	Open VSCode and the terminal
-2.	Enter in the terminal “cds init ProjectOrder”
-3.	Enter in the terminal  “code ProjectOrder”
+2.	Enter in the terminal ```cds init ProjectOrder```
+3.	Enter in the terminal  ```code ProjectOrder``` (on windows at least this opens the project in visual code :P)
 4.	Create ```schema.cds``` file with your entity in the db folder -> Snippet 1
 
 Snippet 1:
