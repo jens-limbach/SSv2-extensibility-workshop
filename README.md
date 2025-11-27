@@ -151,14 +151,16 @@ The videos show you step-by-step how to do it and not only the "finished" extens
 
 ### Topics:
 
-- **Basic customizing** ([Video 3m](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_wt8hh8ye))
-- **In-App Extensibility** ([Video 5m](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_w7vhb24g))
-- **Extensibility Workshop** ([Video 17m](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_52m7tuyh) | [Hands-On Tutorial](https://github.com/jens-limbach/SSv2-Workshop))
+- **Basic customizing** ([Video 3m](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_o7372yp4))
+- **In-App Extensibility** ([Video 5m](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_ozjw3yte))
+- **Extensibility Workshop** ([Video 17m](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_94slnb6w) | [Hands-On Tutorial](https://github.com/jens-limbach/SSv2-extensibility-workshop/tree/main))
   - First Side-by-Side app on BTP
   - Custom Logic via a Microservice (trigger via Autoflow)
   - Custom Key Metrics
-- **Building a Custom Object with standard frontend** ([Video 18m](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_j5slmbgc) | [Hands-On Tutorial](https://github.com/jens-limbach/SSv2-custom-sample-object))
+- **Building a Custom Object with standard frontend** ([Video 18m](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_gf894byk) | [Hands-On Tutorial](https://github.com/jens-limbach/SSv2-custom-sample-object))
 - **Building a custom frontend using AI** ([Video 15m](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_17l2ao1d) | [Hands-On Tutorial](https://github.com/jens-limbach/SSv2-custom-frontend-ai))
+
+New to SAP Sales and Service Cloud Version 2? - check out this [video microsite](https://intelligent-cx-sales-and-service-cloud-intro-5179.brandcast.io/) where I show many of the solution capabilities but also some more tech deep dives in short, hands-on and non-marketing videos :)
 
 New to SAP Sales and Service Cloud Version 2? - check out this [video microsite](https://intelligent-cx-sales-and-service-cloud-intro-5179.brandcast.io/) where I show many of the solution capabilities but also some more tech deep dives in short, hands-on and non-marketing videos :)
 
