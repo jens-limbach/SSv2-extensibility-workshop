@@ -29,6 +29,7 @@ After you completed this guide you will have created and learned the following:
 - [Part 2: Deploying a Microservice with Cloud Functions](#part-2-deploying-a-microservice-with-cloud-functions)
 - [Part 3: Deploying the Mashup-Sample Website](#part-3-deploying-the-mashup-sample-website)
 - [Additional Resources](#additional-resources)
+- [Extensions - Wanna Know More?](#-extensions---wanna-know-more)
 - [Contact](#contact)
 
 ## Part 1: Deploying a Basic Website to BTP
@@ -137,11 +138,29 @@ The mashup-sample website contains a few nice tipps and tricks what you can do t
 ## Additional Resources
 - [Step by Step Video Guide for Custom Services](https://github.com/jens-limbach/SSv2-extensibility-workshop/blob/main/custom-services.md) where I show all steps to create a CAP backend connected to a Hana DB which are used to feed the Frontend of a new Custom Object in SAP Sales and Service Cloud V2
 - [Video where I show a full-stack pro-code application](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_zpj5ofl9) build with the SAP Cloud Application Programming Model (short CAP)
-- - New to SAP Sales and Service Cloud Version 2? - check out this [video microsite](https://intelligent-cx-sales-and-service-cloud-intro-5179.brandcast.io/) where I show many of the solution capabilities but also some more tech deep dives in short, hands-on and non-marketing videos :)
 - [API Reference for SAP Sales and Service Cloud Version ](https://api.sap.com/package/SAPSalesServiceCloudV2/rest) which we use for the "sub-case" creation in our microservice
 - You can also check out the official documentation for SAP [Sales](https://help.sap.com/docs/CX_NG_SALES?locale=en-US) and [Service](https://help.sap.com/docs/CX_NG_SVC?locale=en-US) Cloud Version 2. Especially interessting in the context of this training is for sure the [Extensibility](https://help.sap.com/docs/CX_NG_SALES/ea5ff8b9460a43cb8765a3c07d3421fe/90214e2fe20940dd8cd68c25742c4f9b.html?locale=en-US) section.
 
 We plan to add in the future more usefull ressources regarding the upcoming "custom services feature" and also on how to develop [full CAP applications](https://cap.cloud.sap/docs/get-started/) which is the recommended way to build side-by-side applications.
+
+## 🚀 Extensions - Wanna Know More?
+
+Are you interested how you can extend SAP Sales and Service Cloud Version 2? I cover each recommended possibility from in-app to pro-code in my videos and hands-on tutorials!
+
+The videos show you step-by-step how to do it and not only the "finished" extensions and the tutorials complement those by giving you each single step in order to try it out yourself or to use it for a hands-on workshop! All you need is the curiosity to learn something new 😊
+
+### Topics:
+
+- **Basic customizing** ([Video 3m](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_wt8hh8ye))
+- **In-App Extensibility** ([Video 5m](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_w7vhb24g))
+- **Extensibility Workshop** ([Video 17m](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_52m7tuyh) | [Hands-On Tutorial](https://github.com/jens-limbach/SSv2-Workshop))
+  - First Side-by-Side app on BTP
+  - Custom Logic via a Microservice (trigger via Autoflow)
+  - Custom Key Metrics
+- **Building a Custom Object with standard frontend** ([Video 18m](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_j5slmbgc) | [Hands-On Tutorial](https://github.com/jens-limbach/SSv2-custom-sample-object))
+- **Building a custom frontend using AI** ([Video 15m](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_17l2ao1d) | [Hands-On Tutorial](https://github.com/jens-limbach/SSv2-custom-frontend-ai))
+
+New to SAP Sales and Service Cloud Version 2? - check out this [video microsite](https://intelligent-cx-sales-and-service-cloud-intro-5179.brandcast.io/) where I show many of the solution capabilities but also some more tech deep dives in short, hands-on and non-marketing videos :)
 
 ## Contact
 
