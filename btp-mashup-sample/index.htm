@@ -231,13 +231,19 @@
 
 			// Open specific Case
 			function openNewCnsCaseViewWithRoutingKey() {
-				var oCase = {operation: "navigation", params: {objectKey: "45413257-b7bc-11ef-aee8-63f1e786c385", routingKey: "case"}};
+				var oCase = {operation: "navigation", params: {objectKey: "45413257-b7bc-11ef-aee8-63f1e786c385", routingKey: "case", viewType:"details"}};
 				window.parent.postMessage(oCase, '*')
 			}
 
 			// Open Case Quick Create view
 			function openNewCnsCaseCreate() {
 				var oCase={operation:"navigation", params: {routingKey: "case", viewType:"quickcreate"}};
+				self.window.parent.postMessage(oCase, '*')
+			}
+			
+			// Open Case Quick Create view
+			function openNewCnsCaseQuickView() {
+				var oCase={operation:"navigation", params: {objectKey: "45413257-b7bc-11ef-aee8-63f1e786c385", routingKey: "case", viewType:"quickview"}};
 				self.window.parent.postMessage(oCase, '*')
 			}
 
