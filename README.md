@@ -1,3 +1,7 @@
+📚 **Check out my Tutorial Series for Custom Objects:** [Part 1: Building a Custom Object](https://github.com/jens-limbach/SSv2-custom-sample-object) | [Part 2: Custom Frontend with AI](https://github.com/jens-limbach/SSv2-custom-frontend-ai)
+
+---
+
 # SSv2 - Extensibility Workshop
 
 Welcome to your first journey in creating side-by-side extensions for SAP Sales and Service Cloud Version 2 as a pro code developer! This guide will provide step-by-step instructions accompanied by live sessions, allowing you to get started with V2 development. After completing these steps, you’ll be able to develop:
